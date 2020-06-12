@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  VHRotaryDial
 //
-//  Created by AudiologyMacbookPro4 on 12/06/20.
+//  Created by Vinay on 12/06/20.
 //  Copyright © 2020 com. All rights reserved.
 //
 
@@ -14,7 +14,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
