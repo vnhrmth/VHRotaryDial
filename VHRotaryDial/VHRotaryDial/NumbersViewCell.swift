@@ -25,4 +25,10 @@ class NumbersViewCell: UICollectionViewCell {
 //        contentView.clipsToBounds = true
     }
 
+    override func apply(_ layoutAttributes: UICollectionViewLayoutAttributes) {
+       super.apply(layoutAttributes)
+       let circularlayoutAttributes = layoutAttributes as! CircularLayoutAttributes
+       self.layer.anchorPoint = circularlayoutAttributes.anchorPoint
+       self.center.y += (circularlayoutAttributes.anchorPoint.y + 0.5) * self.bounds.height
+     }
 }

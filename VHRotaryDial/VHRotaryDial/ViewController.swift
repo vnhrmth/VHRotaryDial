@@ -18,10 +18,14 @@ class ViewController: UIViewController {
         self.collectionView.register(UINib(nibName: "NumbersViewCell", bundle: nil), forCellWithReuseIdentifier:cellId)
         
         self.collectionView.contentInset = UIEdgeInsets(top: 0,left: 0,bottom: 200,right: 0)
-        self.collectionView.scrollIndicatorInsets = UIEdgeInsets(top: 0,left: 0,bottom: 200,right: 0)
+        self.collectionView.scrollIndicatorInsets = UIEdgeInsets(top: 0,left: 0,bottom: 400,right: 0)
+        
 
 //        self.collectionView.contentSize
         // Do any additional setup after loading the view.
+    }
+    override func viewDidLayoutSubviews() {
+//        self.collectionView.scrollToItem(at:IndexPath(item: 7, section: 0), at: .top, animated: false)
     }
 }
 
