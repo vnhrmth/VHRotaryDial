@@ -14,6 +14,8 @@
 		9211096E24936A4B00228DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9211096D24936A4B00228DF5 /* Assets.xcassets */; };
 		9211097124936A4B00228DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9211096F24936A4B00228DF5 /* LaunchScreen.storyboard */; };
 		9211097C24936A4B00228DF5 /* VHRotaryDialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9211097B24936A4B00228DF5 /* VHRotaryDialTests.swift */; };
+		9211098824936E3900228DF5 /* NumbersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9211098624936E3900228DF5 /* NumbersViewCell.swift */; };
+		9211098924936E3900228DF5 /* NumbersViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9211098724936E3900228DF5 /* NumbersViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		9211097724936A4B00228DF5 /* VHRotaryDialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VHRotaryDialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9211097B24936A4B00228DF5 /* VHRotaryDialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHRotaryDialTests.swift; sourceTree = "<group>"; };
 		9211097D24936A4B00228DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9211098624936E3900228DF5 /* NumbersViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewCell.swift; sourceTree = "<group>"; };
+		9211098724936E3900228DF5 /* NumbersViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumbersViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				9211096D24936A4B00228DF5 /* Assets.xcassets */,
 				9211096F24936A4B00228DF5 /* LaunchScreen.storyboard */,
 				9211097224936A4B00228DF5 /* Info.plist */,
+				9211098624936E3900228DF5 /* NumbersViewCell.swift */,
+				9211098724936E3900228DF5 /* NumbersViewCell.xib */,
 			);
 			path = VHRotaryDial;
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 				9211097124936A4B00228DF5 /* LaunchScreen.storyboard in Resources */,
 				9211096E24936A4B00228DF5 /* Assets.xcassets in Resources */,
 				9211096C24936A4900228DF5 /* Main.storyboard in Resources */,
+				9211098924936E3900228DF5 /* NumbersViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +210,7 @@
 				9211096924936A4900228DF5 /* ViewController.swift in Sources */,
 				9211096524936A4900228DF5 /* AppDelegate.swift in Sources */,
 				9211096724936A4900228DF5 /* SceneDelegate.swift in Sources */,
+				9211098824936E3900228DF5 /* NumbersViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
